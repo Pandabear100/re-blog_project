@@ -1,0 +1,128 @@
+@media screen and (max-width : 692px){
+
+	body{
+		background-color : green;
+	}
+
+	.container{
+		max-width : 600px;
+		margin : 0 auto;
+	}
+
+	nav{
+		display : block;
+	}
+
+	nav ul{
+		font-size : 100%;
+		text-align : center;
+		padding-top : 4%;
+	}
+
+	nav ul li{
+		padding : 2% 0;
+	}
+
+	.menu-icon{
+		text-align : center;
+	}
+
+	.menu-icon i{
+		margin-left : 0;
+		margin-right : 0;
+	}
+
+	.blue{
+		border-left : none;
+		border-bottom : 2px solid rgb(41, 59, 77);
+	}
+
+	.arrow{
+		display : none;
+	}
+
+	/*****************home******************/
+
+	.home .featured{
+		display : block;
+		width : 100%;
+	}
+
+	.home .featured cite, .home .featured datetime{
+		width : 45%;
+	}
+
+	.home .featured .readmore{
+		position : absolute;
+		bottom : 5px;
+		right : 5px;
+	}
+
+	.home aside{
+		display : block;
+		width : 100%;
+		margin-top : 4%;
+	}
+
+	.home .latest{
+		margin-top : 4%;
+		width : 100%;
+	}
+
+	.home .latest article{
+		margin : 4% 0;
+	}
+
+	.home .latest article img{
+		width : 100%;
+		clear : both;
+		margin-right : 0;
+	}
+
+	.home .latest article p{
+		width : 100%;
+		clear : both;
+		margin-top : 4%;
+	}
+
+
+
+	/************end of home***************/
+}
+
+@media screen and (max-width : 600px){
+
+	body{
+		background-color : blue;
+	}
+
+	/************archive ******************/
+
+	.archive .post{
+		width : 47.3%;
+	}
+
+	.archive .post:nth-child(3n){
+		margin-right : 4.3%;
+	}
+
+	.archive .post:nth-child(2n){
+		margin-right : 0;
+	}
+
+	/*********end of archive***************/
+
+}
+
+@media screen and (max-width : 386px){
+
+	body{
+		background-color : orange;
+	}
+
+	.archive .post{
+		width : 100%;
+		margin-right : 0;
+	}
+
+}
